@@ -11,6 +11,7 @@ public class WholeFrame extends JFrame{
 	
 	public WholeFrame() {
 		this.playerLocationService = new PlayerLocationService();
+		this.playerLocationService.getMazeArr();
 		addEventListener();
 	}
 	
