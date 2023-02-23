@@ -12,9 +12,18 @@ public class WholeFrame extends JFrame{
 	public WholeFrame() {
 		this.playerLocationService = new PlayerLocationService();
 		this.playerLocationService.getMazeArr();
+		
+		// =========김유주 작성===========
+		
+		initData();
+		
+		
+		// ================================
 		addEventListener();
 	}
-	
+	public void initData() {
+		
+	}
 	public void addEventListener() {
 		this.addKeyListener(new KeyAdapter() {
 			@Override
